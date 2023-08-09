@@ -1,0 +1,708 @@
+.fonttableheading
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bolder;
+}
+.fontnormal
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 13px;
+}
+.fontheading
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 14pt;
+	FONT-WEIGHT: bolder;
+}
+
+
+.tble
+{
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+}
+.tabcell
+{
+	border:1px #000000 solid; 
+	border-width: 1px 1px 1px 1px; 
+	border-left:1px #000000 solid;  
+	border-collapse:collapse;
+}
+table.sample {
+	border-width: 1px;
+	border-spacing: ;
+	border-style:solid;
+	border-color:#FB5357;
+	border-collapse:collapse;
+}
+table.sample th {
+	border-width: 1px;
+	padding: 1px;
+	border-style:solid;
+	border-color:#FB5357;
+	-moz-border-radius: ;
+}
+table.sample td {
+	border-width: 1px;
+	padding: 1px;
+	border-style:solid;
+	border-color:#FB5357;
+	-moz-border-radius: ;
+}
+/*  table row    */
+table.tble tr
+{
+	background-color: #C1E2FF;
+}
+
+table.tble th
+{
+	background-color: #3C9FF4;
+}
+.td1 {
+	border-width: 1px;
+	padding: 1px;
+	border-style:solid;
+	border-color:#FB5357;
+	-moz-border-radius: ;
+}
+/*  table heading   */
+.tableHead   
+{
+	color: #FFFFFF ;
+	background-color: #FF712D;
+}
+
+tr.tableHead td
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+/*  table Sub heading   */
+.tableSubHead
+{
+	color: #000000 ;
+	background-color: #FFFF99;
+}
+
+tr.tableSubHead td
+{
+	color: #000000;
+	font-weight: bold;
+}
+
+
+.tablesubsubhead
+{
+	color:#FFFFFF;
+	background-color: #FF8C1A;
+}
+tr.tablesubsubhead td
+{	color: #FFFFFF;
+	font-weight: bold;
+}
+/*  table row 1   */
+.tr1
+{
+	background-color: #FFC082;
+}
+
+.tr2
+{
+	background-color: #FEE1E4;
+}
+
+table
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 13px;
+}
+
+
+a.lnk
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 13px;
+	height: 100%;
+	width: 100%;
+	text-decoration:none;
+	color: #000000;
+	background-color: #E2E2E3;
+}
+
+a.lnk:hover
+{
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 13px;
+	height: 100%;
+	width: 100%;
+	text-decoration:none;
+	color: #000000;
+	background-color: #D8D8D8;
+}
+
+
+/*  for button    */
+
+.button {
+  color: #ffffff;
+  width:80px;
+  height:30px;
+  font-size:24px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  *background-color: #2f96b4;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+.button:hover,
+.button:active,
+.button.active,
+.button.disabled,
+.button[disabled] {
+  color: #ffffff;
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+
+
+/*  for button  over  */
+.buttonOver 
+{
+	color: #ffffff;
+  width:80px;
+  height:30px;
+  font-size:24px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  *background-color: #2f96b4;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+
+.buttSize { 
+	border: 1px solid #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration:none;
+	height: 16pt;
+	width: 125;
+	background-color: #FFE3E6 ;
+	text-indent: 0px;
+	}
+
+
+.buttSizeOver { 
+	border: 1px solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000; 
+	height: 16pt;
+	width: 125;
+	text-decoration:none; 
+	background-color: #F79AA5; 
+	}
+
+
+
+
+input
+{
+	BORDER-BOTTOM:F9BCBE 1px solid;
+    BORDER-LEFT: #F9BCBE 1px solid;
+    BORDER-RIGHT: #F9BCBE 1px solid;
+    BORDER-TOP: #F9BCBE 1px solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12px;
+}
+
+.rCombo
+{
+	border: 0px solid #F9BCBE;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	 
+}
+
+
+input[type="button"]
+{
+	border: 1px solid #F9BCBE;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #9C629D;
+}
+
+/* dropdown  combo color */
+select
+{
+	border: 1px solid #F9BCBE;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FDF5F5;
+}
+
+
+
+
+/*  for whole background body */
+body
+{
+
+	background-color: #FDF5F5;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	FONT-FAMILY: Verdana, Arial;
+	FONT-SIZE: 13px;
+	background: #ffffff url("imgs/4.png");
+    SCROLLBAR-FACE-COLOR: #FA8083;
+	SCROLLBAR-HIGHLIGHT-COLOR: #FFE3E6;
+	SCROLLBAR-SHADOW-COLOR: #F8C3C8;
+	SCROLLBAR-3D-LIGHT-COLOR: #F8C3C8;
+	SCROLLBAR-ARROW-COLOR: #ffffce;
+	SCROLLBAR-TRACK-COLOR: #FFF4F5;
+	SCROLLBAR-DARK-SHADOW-COLOR:black;
+	SCROLLBAR-BASE-COLOR:WHITE;
+}
+
+.popupLink 
+{
+	COLOR: 55A9F2; outline: none
+}
+/* Program help text */
+.popup 
+{
+	BORDER-RIGHT: black 3px solid; 
+	PADDING-RIGHT: 3px; 
+	BORDER-TOP: black 1px solid; 
+	PADDING-LEFT: 3px; Z-INDEX: 10; 
+	VISIBILITY: hidden; 
+	PADDING-BOTTOM: 3px; 
+	BORDER-LEFT: black 1px solid; 
+	WIDTH: 250px; 
+	PADDING-TOP: 3px; 
+	BORDER-BOTTOM: black 3px solid; 
+	POSITION: absolute; 
+	BACKGROUND-COLOR:FEC9CF; 
+	LAYER-BACKGROUND-COLOR:FEC9CF;
+}
+
+.popupLink1
+{	
+COLOR:FEC9CF; 
+outline: none;
+}
+div.suggestions {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;   
+}
+
+div.suggestions div {
+    cursor: default;
+    padding: 0px 3px;
+}
+
+div.suggestions div.current {
+    background-color: #E17E85;
+    color: white;
+}
+
+#DHTMLgoodies_formTooltipDiv{
+	color:#FFF;
+	font-family:arial;
+	font-weight:bold;
+	FONT-SIZE: 10pt;
+	line-height:100%;
+}
+.DHTMLgoodies_formTooltip_closeMessage{
+	color:#FFF;
+	font-weight:normal;
+	FONT-SIZE: 7pt;
+}
+#weekScheduler_container{
+	border:1px solid #000;
+	width:986px;
+}
+
+.weekScheduler_appointments_day{	/* Column for each day */
+	width:105px;
+	float:left;
+	background-color: #FFFFD5;
+	border-right:1px solid #F6DBA2;
+	position:relative;
+}
+#weekScheduler_top{
+	background-color:#6FBAF3;	
+	height:20px;
+	border-bottom:1px solid #ACA899;
+}
+.calendarContentTime,.spacer{
+	background-color:#6FBAF3;
+	text-align:center;
+	font-family:arial;
+	font-size:22px;
+	line-height:25px;
+	height:25px;	/* Height of hour rows */
+
+	border-right:1px solid #ACA899;
+	width:50px;
+}
+
+.weekScheduler_appointmentHour{	/* Small squares for each hour inside the appointment div */
+	height:25px; /* Height of hour rows */
+	border-bottom:1px solid #F6DBA2;
+}
+
+.spacer{
+	height:20px;
+	float:left;
+}
+
+#weekScheduler_hours{
+	width:50px;
+	float:left;
+}
+.calendarContentTime{
+	border-bottom:1px solid #ACA899;
+
+}
+
+#weekScheduler_appointments{	/* Big div for appointments */
+	width:917px;
+	float:left;
+}
+.calendarContentTime .content_hour{
+	font-size:10px;
+	text-decoration:superscript;
+	vertical-align:top;
+	line-height:25px;
+}
+
+#weekScheduler_top{
+	width:800px;
+	position:relative;
+	clear:both;
+}
+#weekScheduler_content{
+	clear:both;
+	height:480px;
+	position:relative;
+	overflow:auto;
+}
+.days div{
+	width:105px;
+	float:left;
+	text-align:center;
+	font-family:arial;
+	height:20px;
+	font-size:0.9em;
+	line-height:20px;
+	border-right:1px solid #ACA899;
+}
+
+.weekScheduler_anAppointment{	/* A new appointment */
+	position:absolute;
+	background-color:#FFF;
+	border:1px solid #000;
+	z-index:1000;
+	overflow:hidden;
+
+
+}
+
+.weekScheduler_appointment_header{	/* Appointment header row */
+	height:4px;
+	background-color:#ACA899;
+}
+.weekScheduler_appointment_headerActive{ /* Appointment header row  - when active*/
+	height:4px;
+	background-color:#00F;
+}
+
+.weekScheduler_appointment_textarea{	/* Textarea where you edit appointments */
+	font-size:0.9em;
+	font-family:arial;
+}
+
+.weekScheduler_appointment_txt{
+	font-size:0.9em;
+	font-family:arial;
+	padding:2px;
+	padding-top:5px;
+	overflow:hidden;
+
+}
+
+.weekScheduler_appointment_footer{
+	position:absolute;
+	bottom:-1px;
+	border-top:1px solid #000;
+	height:4px;
+	width:100%;
+	font-size:0.8em;
+	background-color:#000;
+}
+
+.weekScheduler_appointment_time{
+	position:absolute;
+	border:1px solid #000;
+	right:1px;
+	top:5px;
+	width:50px;
+	height:12px;
+	z-index:100000;
+	font-size:0.7em;
+	padding:1px;
+	background-color:#F6DBA2;
+}
+.eventIndicator{
+	background-color:#00F;
+	z-index:50;
+	display:none;
+	position:absolute;
+}
+
+.txtheading{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold
+}
+
+.txtcontents{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+.input1
+{
+	border: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFE3E6;
+}
+
+.popup_security {
+        border: solid 1px #AB79A6;
+        font-family: Tahoma;
+        font-size: 12px;
+        font-color: white;
+		display: inline;
+		background: url('abc.jpg' );
+        position: absolute;
+        
+	 z-index: 1000;
+      }
+
+      .popuptitle {
+        background:  #ffd74f;
+        color: white;
+        font-weight: bold;
+        height: 15px;
+        padding: 5px;
+      }
+      
+      .popupbody {
+        background: white;
+        padding: 5px;
+        text-align: center;
+      }
+
+      #popup_security1 { top: 0px; left: 0px; }
+	  
+	  input[type=text]:focus,textarea:focus {
+	  -webkit-box-shadow: 0px 0px 4px #FF0000;
+	  -moz-box-shadow: 0px 0px 4px #FF0000;
+	  box-shadow: 0px 0px 4px #FF0000;
+	  }
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  width:180px;
+  height:30px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  *margin-top: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+input,
+textarea {
+  width: 180px;
+}
+
+textarea {
+  height: auto;
+}
+select,
+input[type="file"] {
+  height: 30px;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+
+  line-height: 30px;
+}
+
+select {
+  width: 180px;
+  background-color: #ffffff;
+  border: 1px solid #bbb;
+}
+
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#resultTable {
+    border-collapse: separate;
+	background-color: #FFFFFF;
+    border-spacing: 0;
+    max-width: 100%;
+	 background: #ffffff url("imgs/4.png");
+}
+#resultTable {
+	color: #666666;
+    text-shadow: 0 1px 0 #FFFFFF;
+	width: 100%;
+	/*border: 1px solid #999999;*/
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
+	margin-top: 13px;
+}
+#resultTable thead tr th {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #222222;
+    padding: 10px 14px;
+    text-align: left;
+	border-top: 0 none;
+	font-size: 13px;
+}
+
+#resultTable tbody tr td{
+	font: bold 13px 'Arial';
+	
+    text-align: left;
+	padding: 10px 14px;
+	/*border-top: 1px solid #999999;*/
+}
+
+	#resultTable td{ 
+		padding:7px; /*border:#4e95f4 1px solid;*/
+	}
+	#resultTable tr{
+		/*background: #fff;
+		background-color: #E0E0E0;*/
+	}
+    #resultTable tr:hover {
+          background-color: #FFE3D7;
+    }
+	
+

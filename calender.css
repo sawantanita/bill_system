@@ -1,0 +1,82 @@
+table
+{
+	FONT-FAMILY: Verdana, Arial;
+	FONT-SIZE: 11px;
+	text-shadow:#000000;
+	border-color:#0000FF;
+	
+}
+td
+{
+	
+	
+	font-size: 10px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	border:0;
+	
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+a
+{
+	FONT-FAMILY: Verdana, Arial;
+	SIZE: 11px;
+	text-indent:3px;
+	height="100%";
+	width="80%";
+	text-decoration:none;
+	color: #000000;
+}
+
+a:hover
+{
+	FONT-FAMILY: Verdana, Arial;
+	FONT-SIZE: 11px;
+	text-indent:3px;
+	height="100%";
+	width="80%";
+	text-decoration:none;
+	color: #000000;
+	background-color: #E2E2E3
+}
+
+
+input
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-valign: middle;
+	height: 12pt;
+	width: 22px;
+}
+
+
+body
+{
+background-image:url(main/img/bg/4.png);
+
+	/* background-color: #00398F; */
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	FONT-FAMILY: Verdana, Arial;
+	FONT-SIZE: 11px;
+	SCROLLBAR-FACE-COLOR: #8f8fce; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #b8caed; 
+	SCROLLBAR-SHADOW-COLOR: #335997; 
+	SCROLLBAR-3D-LIGHT-COLOR: #335997; 
+	SCROLLBAR-ARROW-COLOR: #ffffce; 
+	SCROLLBAR-TRACK-COLOR: #b8caed; 
+	SCROLLBAR-DARK-SHADOW-COLOR:black;
+	SCROLLBAR-BASE-COLOR:WHITE
+	
+}
+
