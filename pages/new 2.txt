@@ -1,0 +1,43 @@
+SELECT main_feemast.id, main_feemast.admno, main_feemast.curr_date, main_feemast.acadamic_year, sum(main_feemast.due_amt) as amt, sum(
+financial_transdetail.amount
+) AS damt
+FROM main_feemast  
+LEFT JOIN financial_trans ON ( main_feemast.admno= financial_trans.admno
+AND main_feemast.curr_date = financial_trans.tranDate)
+LEFT JOIN financial_transdetail ON ( financial_trans.id = financial_transdetail.financialTranid
+AND main_feemast.fee_head = financial_transdetail.headname )
+WHERE v_type = 'DUE' and financial_trans.Entrymode='0'
+GROUP BY main_feemast.admno, main_feemast.fee_head, main_feemast.curr_date having amt<>damt
+
+
+
+
+SELECT main_feemast.id, main_feemast.admno, main_feemast.curr_date, main_feemast.acadamic_year, sum(main_feemast.due_amt) as amt, 
+(select sum(
+financial_transdetail.amount
+) AS damt from financial_trans,financial_transdetail  where financial_trans.id = financial_transdetail.financialTranid and Entrymode='0' and main_feemast.admno= financial_trans.admno
+AND main_feemast.curr_date = financial_trans.tranDate and main_feemast.fee_head = financial_transdetail.headname) as detamt from  main_feemast  
+WHERE v_type = 'DUE'
+GROUP BY main_feemast.admno, main_feemast.fee_head, main_feemast.curr_date having amt<>detamt 
+
+
+SELECT main_feemast.id, main_feemast.admno, main_feemast.curr_date, main_feemast.acadamic_year, sum(main_feemast.due_amt) as amt, 
+(SELECT SUM( financial_transdetail.amount ) AS damt
+FROM financial_trans, financial_transdetail
+WHERE financial_trans.id = financial_transdetail.financialTranid
+AND Entrymode = '0' 
+and main_feemast.admno = financial_trans.admno 
+and main_feemast.curr_date = financial_trans.tranDate 
+and main_feemast.fee_head = financial_transdetail.headname 
+GROUP BY financial_trans.admno, financial_transdetail.headname, financial_trans.tranDate
+) as detamt from  main_feemast  
+WHERE v_type = 'DUE'
+GROUP BY main_feemast.admno, main_feemast.fee_head, main_feemast.curr_date having amt<>detamt 
+
+
+
+SELECT SUM( financial_transdetail.amount ) AS damt
+FROM financial_trans, financial_transdetail
+WHERE financial_trans.id = financial_transdetail.financialTranid
+AND Entrymode = '0'
+GROUP BY financial_trans.admno, financial_transdetail.headname, financial_trans.tranDate
